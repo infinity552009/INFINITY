@@ -2,8 +2,8 @@ body{
     background-color: black;
 }
 .container{
-    border: 3px solid #000000;
-    color:red;
+    border: 3px solid #0dc8f7;
+    color:rgb(68, 13, 13);
     background-color: #ffffff;
 }
 .container h1, .container p{
@@ -12,3 +12,56 @@ body{
 .container:hover{
     box-shadow: 3px 5px 8px rgb(30, 116, 116);
 }
+.login-container:hover{
+    border: 3px solid #00aeff;
+    color:rgb(0, 0, 0);
+    background-color: #000000;
+    width: 200px;
+    height: 200x;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 5px 8px rgb(0, 174, 255) ;
+}
+
+.login-container:hover #username, .login-container:hover #password, .login-container:hover #email {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 5px 8px rgb(255, 0, 0)  ;
+}
+
+
+.login-container{
+    border: 3px solid #0dc8f7;
+    color:rgb(68, 13, 13);
+    background-color: #ffffff;
+    width: 200px;
+    height: 230px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+}
+#login-button{
+    background-color: #0dc8f7;
+    color: #000000;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 5px 8px rgb(255, 0, 0)  ;
+    position: relative;
+    margin-top: 30px;
+    margin-left:1px;
+    align-items: center;
+    
+    
+}   
