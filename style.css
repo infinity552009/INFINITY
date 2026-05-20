@@ -11,9 +11,11 @@ body{
 }
 .container:hover{
     box-shadow: 3px 5px 8px rgb(30, 116, 116);
+    color:red;
 }
 .login-container:hover{
     border: 3px solid #00aeff;
+    
     color:rgb(0, 0, 0);
     background-color: #000000;
     width: 200px;
@@ -26,7 +28,7 @@ body{
     box-shadow: 3px 5px 8px rgb(0, 174, 255) ;
 }
 
-.login-container:hover #username, .login-container:hover #password, .login-container:hover #email {
+.login-container:hover #username,.login-container:hover #email,.login-container:hover #password,.login-container{
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #ff0000;
@@ -49,19 +51,16 @@ body{
     border-radius: 20px;
     padding: 20px;
 }
-#login-button{
-    background-color: #0dc8f7;
-    color: #000000;
-    border: 2px solid #ff0000;
+.login-container:hover #login-button{
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #ff0000;
+    border: 3px solid #ffffff;
     border-radius: 10px;
     width: 150px;
     padding: 10px;
     transition: all 0.3s ease;
-    box-shadow: 3px 5px 8px rgb(255, 0, 0)  ;
-    position: relative;
-    margin-top: 30px;
-    margin-left:1px;
-    align-items: center;
-    
-    
-}   
+    box-shadow:2px 3px 5px rgb(255, 255, 255);
+
+}
+
