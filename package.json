@@ -1,0 +1,24 @@
+{
+  "name": "infinity",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/infinity552009/INFINITY#readme",
+  "bugs": {
+    "url": "https://github.com/infinity552009/INFINITY/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinity552009/INFINITY.git"
+  },
+  "license": "ISC",
+  "author": "Jerin Infinity",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}
